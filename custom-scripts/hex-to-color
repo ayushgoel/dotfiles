@@ -1,0 +1,21 @@
+#! /usr/bin/python
+
+import sys
+
+def colorForHex(x):
+  if len(x) != 6:
+    return "Poorly formatted HEX", x
+  try:
+    r = int(x[:2], 16)
+    g = int(x[2:4], 16)
+    b = int(x[4:], 16)
+    return "{0} -> {1} {2} {3}".format(x, r, g, b)
+  except ValueError:
+    return "Couldn't convert number", x
+
+if __name__ == '__main__':
+  hexValues = sys.argv[1:]
+  for i in hexValues:
+    print colorForHex(i)
+  print "Thank you!"
+
