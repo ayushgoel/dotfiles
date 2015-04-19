@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+if [ $# -lt 2 ]
+then
+  echo "ERROR: Less arguments."
+  echo "Usage: git-subtree-add <git-url> <ref(commit)>"
+else 
+  REPO_NAME=`echo $1 | sed 's%^.*/\([^/]*\)\.git$%\1%g'`
+  echo "Adding subtree for "
+  echo $REPO_NAME
+  PREFIX="lib/"$REPO_NAME
+  git subtree add --prefix=$PREFIX --squash $1 $2
+fi
