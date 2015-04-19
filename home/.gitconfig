@@ -1,0 +1,15 @@
+[user]
+	name = Ayush Goel
+	email = ayushgoel111@gmail.com
+[color]
+	branch = auto
+	diff = auto
+	status = auto
+[merge]
+	tool = opendiff
+[pager]
+	status = true
+[core]
+	excludesfile = ~/.gitignore_global
+[credential]
+	helper = osxkeychain
