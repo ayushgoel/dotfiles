@@ -13,3 +13,5 @@
 	excludesfile = ~/.gitignore_global
 [credential]
 	helper = osxkeychain
+[push]
+	default = simple
