@@ -10,13 +10,14 @@ require 'pathname'
 
 include FileUtils::Verbose
 
+home = "home"
 home_path = Pathname.new('home')
 
 os_home_path = Pathname.new(Dir.home)
 
 fail USAGE unless home_path.exist?
 
-Find.find(home_path) do |entry|
+Find.find(home) do |entry|
   relative_path = Pathname.new(entry).relative_path_from(home_path)
   source = (home_path + relative_path).expand_path
   dest = os_home_path + relative_path
