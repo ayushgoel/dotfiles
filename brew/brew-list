@@ -14,8 +14,10 @@ jpeg
 libgpg-error
 libksba
 libpng
+libtiff
 libtool
 libyaml
+lnav
 mit-scheme
 mysql
 node
