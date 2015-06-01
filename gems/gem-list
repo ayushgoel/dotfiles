@@ -25,6 +25,7 @@ credentials_manager
 deliver
 diff-lcs
 escape
+excon
 execjs
 executable-hooks
 fast-stemmer
@@ -68,6 +69,7 @@ mini_portile
 minitest
 molinillo
 multi_json
+mysql2
 nap
 net-dns
 netrc

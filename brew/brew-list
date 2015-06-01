@@ -17,6 +17,8 @@ libpng
 libtool
 libyaml
 mit-scheme
+mysql
+node
 openssl
 ossp-uuid
 pcre
