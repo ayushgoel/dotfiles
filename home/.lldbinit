@@ -3,4 +3,6 @@ command alias reveal_load_dev expr (void*)dlopen([(NSString*)[(NSBundle*)[NSBund
 command alias reveal_start expr (void)[(NSNotificationCenter*)[NSNotificationCenter defaultCenter] postNotificationName:@"IBARevealRequestStart" object:nil];
 command alias reveal_stop expr (void)[(NSNotificationCenter*)[NSNotificationCenter defaultCenter] postNotificationName:@"IBARevealRequestStop" object:nil];
 
+command alias uikit expr @import UIKit
+
 command script import /usr/local/opt/chisel/libexec/fblldb.py
