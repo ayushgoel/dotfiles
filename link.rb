@@ -11,7 +11,7 @@ require 'pathname'
 include FileUtils::Verbose
 
 home = "home"
-home_path = Pathname.new('home')
+home_path = Pathname.new(home)
 
 os_home_path = Pathname.new(Dir.home)
 
