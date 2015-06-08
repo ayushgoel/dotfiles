@@ -7,7 +7,7 @@ require 'rake'
 def installFrom(filePath)
     File.foreach(filePath) { |line|
         name = line.chomp
-        yeild name
+        yield name
     }
 end
 
