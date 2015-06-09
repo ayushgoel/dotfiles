@@ -5,6 +5,7 @@ brew-cask
 chisel
 freetype
 gdbm
+gist
 git
 git-cal
 git-extras
@@ -25,6 +26,7 @@ openssl
 ossp-uuid
 pcre
 pkg-config
+plt-racket
 postgresql
 python
 python3
