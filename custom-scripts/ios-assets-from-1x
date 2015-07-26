@@ -1,0 +1,6 @@
+resize () {
+        ls *@1x.png | awk '{print("convert "$1" -filter box -resize '$1' "$1)}' | sed 's/@1x/'$2'/2' | /bin/sh  
+}
+
+resize 200% @2x
+resize 300% @3x
