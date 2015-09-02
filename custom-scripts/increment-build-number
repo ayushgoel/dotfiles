@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+function print_help() {
+  echo "Usage: $0 <path-to-plist>"
+}
+
+if [ ! -f $1 ] || [ -z "$1" ]
+  then
+  print_help
+  exit 1
+fi
+
+currentBuildNumber=`/usr/libexec/PlistBuddy -c "Print :CFBundleVersion" $1`
+newBuildNumber=$((currentBuildNumber+1))
+/usr/libexec/PlistBuddy -c "Set :CFBundleVersion $newBuildNumber" $1
+
+echo "Updating to Build Version: $newBuildNumber."
+sleep 1
+git add $1
+git commit -m "Update Build version $newBuildNumber"
+git push
