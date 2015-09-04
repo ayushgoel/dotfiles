@@ -30,11 +30,11 @@ openssl
 ossp-uuid
 pcre
 pkg-config
-plt-racket
 postgresql
 python
 python3
 qpdf
+racket
 readline
 redis
 sqlite

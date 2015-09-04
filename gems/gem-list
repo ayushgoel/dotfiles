@@ -40,6 +40,7 @@ diff-lcs
 domain_name
 dotenv
 escape
+ethon
 excon
 execjs
 executable-hooks
@@ -80,8 +81,10 @@ jemoji
 jmespath
 json
 json_pure
+kicker
 kramdown
 krausefx-shenzhen
+liferaft
 liquid
 listen
 maruku
@@ -106,6 +109,7 @@ net-sftp
 net-ssh
 netrc
 nokogiri
+notify
 ntlm-http
 open4
 parslet
@@ -127,6 +131,7 @@ rack-test
 rake
 rb-fsevent
 rb-inotify
+rb-kqueue
 rdiscount
 rdoc
 redcarpet
@@ -156,11 +161,13 @@ timers
 tins
 toml
 ttfunk
+typhoeus
 tzinfo
 unf
 webrobots
 websocket-driver
 websocket-extensions
+xcinvoke
 xcodeproj
 xcpretty
 xpath
