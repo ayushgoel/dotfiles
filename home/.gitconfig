@@ -16,3 +16,6 @@
 	helper = osxkeychain
 [push]
 	default = simple
+[diff "xcdatamodel"]
+	xfuncname = ^Entity.*$
+	textconv = XCDataModelPrinter
