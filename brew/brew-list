@@ -2,6 +2,7 @@ autoconf
 automake
 bash-completion
 brew-cask
+ccache
 chisel
 cmake
 ffmpeg
