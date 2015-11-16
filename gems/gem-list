@@ -26,6 +26,7 @@ cocoapods
 cocoapods-core
 cocoapods-downloader
 cocoapods-plugins
+cocoapods-rome
 cocoapods-search
 cocoapods-stats
 cocoapods-trunk
