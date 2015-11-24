@@ -19,3 +19,5 @@
 [diff "xcdatamodel"]
 	xfuncname = ^Entity.*$
 	textconv = XCDataModelPrinter
+[diff "plist"]
+	textconv = plutil -convert xml1 -o -
