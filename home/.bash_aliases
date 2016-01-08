@@ -12,4 +12,4 @@ alias serve-ayushgoel-github-io='bundle exec jekyll serve'
 
 alias clean-all-xcode-plugins='rm -rf ~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins/'
 
-fix-my-docker='docker-machine restart default;eval $(docker-machine env default)'
+alias fix-my-docker='docker-machine restart default;eval $(docker-machine env default)'
