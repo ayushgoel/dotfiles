@@ -39,6 +39,7 @@ colored
 commander
 credentials_manager
 cupertino
+declarative
 deliver
 diff-lcs
 domain_name
@@ -50,12 +51,14 @@ execjs
 executable-hooks
 extlib
 faraday
+faraday-cookie_jar
 faraday_middleware
 fast-stemmer
 fastimage
 fastlane
 fastlane_core
 ffi
+fourflusher
 frameit
 fuzzy_match
 gem-wrappers
@@ -72,6 +75,8 @@ highline
 hitimes
 html-pipeline
 http-cookie
+httpclient
+hurley
 i18n
 io-console
 jazzy
@@ -83,6 +88,7 @@ jekyll-mentions
 jekyll-paginate
 jekyll-redirect-from
 jekyll-sass-converter
+jekyll-seo-tag
 jekyll-sitemap
 jekyll-watch
 jemoji
@@ -100,13 +106,16 @@ listen
 little-plugger
 logging
 maruku
+match
 mechanize
 memoist
 mercenary
 method_source
 mime-types
+mime-types-data
 mini_magick
 mini_portile
+mini_portile2
 minitest
 molinillo
 multi_json
@@ -125,7 +134,9 @@ netrc
 nokogiri
 notify
 ntlm-http
+octokit
 open4
+os
 parslet
 pbxplorer
 pdf-core
@@ -152,6 +163,7 @@ rdiscount
 rdoc
 redcarpet
 RedCloth
+representable
 rest-client
 retriable
 rouge
@@ -161,6 +173,7 @@ rubyzip
 rvm
 safe_yaml
 sass
+sawyer
 scan
 security
 sentry-raven
@@ -185,11 +198,13 @@ toml
 ttfunk
 typhoeus
 tzinfo
+uber
 unf
 webrobots
 websocket-driver
 websocket-extensions
 xcinvoke
+xcode-install
 xcodeproj
 xcodesnippet
 xcpretty

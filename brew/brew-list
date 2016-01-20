@@ -40,6 +40,7 @@ qpdf
 racket
 readline
 redis
+sourcekitten
 sqlite
 x264
 xvid
