@@ -13,3 +13,5 @@ alias serve-ayushgoel-github-io='bundle exec jekyll serve'
 alias clean-all-xcode-plugins='rm -rf ~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins/'
 
 alias fix-my-docker='docker-machine restart default;eval $(docker-machine env default)'
+
+alias youtube-dl-mp3='youtube-dl --extract-audio --audio-format mp3 --embed-thumbnail $1'
