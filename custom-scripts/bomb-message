@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+if [ $# -lt 2 ]
+then
+  echo "ERROR: Less arguments."
+  echo "Usage: bomb-message <message> <webhook-URL>"
+else
+  JSON="'"'{"text": "'$1'"}'"'"
+  JOB='* * * * * /usr/bin/curl -H "Content-type:application/json" -d '$JSON' "'$2'" >> /tmp/bombing-log'
+  # echo "$JOB"
+  crontab -l | { cat; echo "$JOB"; } | crontab -
+  # unset $JOB
+  # REPO_NAME=`echo $1 | sed 's%^.*/\([^/]*\)\.git$%\1%g'`
+  # echo "Adding subtree for "
+  # echo $REPO_NAME
+  # PREFIX="lib/"$REPO_NAME
+  # git subtree add --prefix=$PREFIX --squash $1 $2
+fi
+
