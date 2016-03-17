@@ -2,7 +2,6 @@ autoconf
 automake
 bash-completion
 boost
-brew-cask
 ccache
 chisel
 cmake

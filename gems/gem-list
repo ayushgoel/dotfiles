@@ -1,5 +1,6 @@
 activesupport
 addressable
+archive-tar-minitar
 autoparse
 aws-sdk
 aws-sdk-core
@@ -90,6 +91,7 @@ jekyll-redirect-from
 jekyll-sass-converter
 jekyll-seo-tag
 jekyll-sitemap
+jekyll-textile-converter
 jekyll-watch
 jemoji
 jmespath
@@ -128,8 +130,11 @@ nenv
 net-dns
 net-http-digest_auth
 net-http-persistent
+net-scp
 net-sftp
 net-ssh
+net-ssh-gateway
+net-ssh-multi
 netrc
 nokogiri
 notify
@@ -166,6 +171,7 @@ RedCloth
 representable
 rest-client
 retriable
+rhc
 rouge
 rspec-logsplit
 rubygems-bundler
@@ -175,6 +181,7 @@ safe_yaml
 sass
 sawyer
 scan
+screengrab
 security
 sentry-raven
 sigh
