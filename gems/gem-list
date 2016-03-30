@@ -85,6 +85,7 @@ jekyll
 jekyll-coffeescript
 jekyll-feed
 jekyll-gist
+jekyll-github-metadata
 jekyll-mentions
 jekyll-paginate
 jekyll-redirect-from
@@ -207,6 +208,7 @@ typhoeus
 tzinfo
 uber
 unf
+unf_ext
 webrobots
 websocket-driver
 websocket-extensions
