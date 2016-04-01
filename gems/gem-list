@@ -1,6 +1,13 @@
+actionmailer
+actionpack
+actionview
+activejob
+activemodel
+activerecord
 activesupport
 addressable
 archive-tar-minitar
+arel
 autoparse
 aws-sdk
 aws-sdk-core
@@ -9,6 +16,7 @@ aws-sdk-v1
 babosa
 bigdecimal
 blankslate
+builder
 bundler
 bundler-unload
 capybara
@@ -38,6 +46,7 @@ coffee-script-source
 colorator
 colored
 commander
+concurrent-ruby
 credentials_manager
 cupertino
 declarative
@@ -45,6 +54,7 @@ deliver
 diff-lcs
 domain_name
 dotenv
+erubis
 escape
 ethon
 excon
@@ -68,6 +78,7 @@ git-game
 github-pages
 github-pages-health-check
 githug
+globalid
 google-api-client
 googleauth
 grit
@@ -108,6 +119,8 @@ liquid
 listen
 little-plugger
 logging
+loofah
+mail
 maruku
 match
 mechanize
@@ -161,6 +174,11 @@ public_suffix
 pygments.rb
 rack
 rack-test
+rails
+rails-deprecated_sanitizer
+rails-dom-testing
+rails-html-sanitizer
+railties
 rake
 rb-fsevent
 rb-inotify
@@ -191,6 +209,8 @@ slack-notifier
 slop
 snapshot
 spaceship
+sprockets
+sprockets-rails
 sqlite3
 subexec
 supply

@@ -13,6 +13,7 @@ gist
 git
 git-cal
 git-extras
+highlight
 hub
 imagemagick
 jpeg
@@ -26,6 +27,7 @@ libvo-aacenc
 libyaml
 lighttpd
 lnav
+lua
 mysql
 node
 openssl
