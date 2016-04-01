@@ -26,7 +26,6 @@ libvo-aacenc
 libyaml
 lighttpd
 lnav
-mit-scheme
 mysql
 node
 openssl
