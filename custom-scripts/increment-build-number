@@ -14,8 +14,8 @@ currentBuildNumber=`/usr/libexec/PlistBuddy -c "Print :CFBundleVersion" $1`
 newBuildNumber=$((currentBuildNumber+1))
 /usr/libexec/PlistBuddy -c "Set :CFBundleVersion $newBuildNumber" $1
 
-echo "Updating to Build Version: $newBuildNumber."
+echo "Updating $1 to Build Version: $newBuildNumber."
 sleep 1
 git add $1
-git commit -m "Update Build version $newBuildNumber"
+git commit -m "Update $1's build version to $newBuildNumber"
 git push
