@@ -28,6 +28,7 @@ libyaml
 lighttpd
 lnav
 lua
+markdown
 mysql
 node
 openssl
