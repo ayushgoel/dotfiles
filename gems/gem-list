@@ -1,3 +1,4 @@
+actioncable
 actionmailer
 actionpack
 actionview
@@ -33,9 +34,9 @@ classifier-reborn
 cliver
 cocoapods
 cocoapods-core
+cocoapods-deintegrate
 cocoapods-downloader
 cocoapods-plugins
-cocoapods-rome
 cocoapods-search
 cocoapods-stats
 cocoapods-trunk
@@ -69,11 +70,13 @@ fastimage
 fastlane
 fastlane_core
 ffi
+forwardable-extended
 fourflusher
 frameit
 fuzzy_match
 gem-wrappers
 gemoji
+gh_inspector
 git-game
 github-pages
 github-pages-health-check
@@ -150,6 +153,7 @@ net-ssh
 net-ssh-gateway
 net-ssh-multi
 netrc
+nio4r
 nokogiri
 notify
 ntlm-http
@@ -157,11 +161,13 @@ octokit
 open4
 os
 parslet
+pathutil
 pbxplorer
 pdf-core
 pem
 phantomjs
 pilot
+pkg-config
 plist
 poltergeist
 posix-spawn
@@ -193,6 +199,7 @@ retriable
 rhc
 rouge
 rspec-logsplit
+ruby_dep
 rubygems-bundler
 rubyzip
 rvm
@@ -205,6 +212,7 @@ security
 sentry-raven
 sigh
 signet
+simple_cmd
 slack-notifier
 slop
 snapshot
@@ -232,6 +240,7 @@ unf_ext
 webrobots
 websocket-driver
 websocket-extensions
+word_wrap
 xcinvoke
 xcode-install
 xcodeproj

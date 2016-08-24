@@ -29,11 +29,13 @@ lighttpd
 lnav
 lua
 markdown
+minimal-racket
 mysql
 node
 openssl
 ossp-uuid
 pcre
+pip-completion
 pkg-config
 postgresql
 python
@@ -42,8 +44,10 @@ qpdf
 racket
 readline
 redis
+ruby-completion
 sourcekitten
 sqlite
+terminal-notifier
 x264
 xvid
 xz
