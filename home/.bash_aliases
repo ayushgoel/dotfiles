@@ -17,3 +17,5 @@ alias fix-my-docker='docker-machine restart default;eval $(docker-machine env de
 alias youtube-dl-mp3='youtube-dl --extract-audio --audio-format mp3 --embed-thumbnail $1'
 
 alias gem-uninstall-all='gem list --no-version | xargs gem uninstall -aIx'
+
+alias xcode-clean-derived-data='rm -rf ~/Library/Developer/Xcode/DerivedData/*'
