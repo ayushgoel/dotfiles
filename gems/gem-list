@@ -135,6 +135,7 @@ mime-types-data
 mini_magick
 mini_portile
 mini_portile2
+minima
 minitest
 molinillo
 multi_json
@@ -237,6 +238,7 @@ tzinfo
 uber
 unf
 unf_ext
+unicode-display_width
 webrobots
 websocket-driver
 websocket-extensions
