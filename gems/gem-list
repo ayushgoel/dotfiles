@@ -48,6 +48,7 @@ colorator
 colored
 commander
 concurrent-ruby
+connection_pool
 credentials_manager
 cupertino
 declarative
@@ -106,6 +107,7 @@ jekyll-redirect-from
 jekyll-sass-converter
 jekyll-seo-tag
 jekyll-sitemap
+jekyll-swiss
 jekyll-textile-converter
 jekyll-watch
 jemoji
