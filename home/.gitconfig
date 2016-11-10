@@ -26,3 +26,5 @@
 [merge "mergepbx"]
         name = Xcode project files merger
         driver = mergepbx %O %A %B
+[rerere]
+	enabled = true
