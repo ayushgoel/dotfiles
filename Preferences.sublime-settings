@@ -1,0 +1,13 @@
+{
+    "color_scheme": "Packages/Color Scheme - Default/Mac Classic.tmTheme",
+    "font_size": 14,
+    "translate_tabs_to_spaces": true,
+    // Adds whitespace up to the first open bracket when indenting. Requires
+    // auto_indent to be enabled.
+    "indent_to_bracket": true,
+    "rulers": [80,100],
+    "ignored_packages":
+    [
+      "Vintage"
+  ]
+}
