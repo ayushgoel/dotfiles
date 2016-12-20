@@ -21,6 +21,8 @@
 	textconv = XCDataModelPrinter
 [diff "plist"]
 	textconv = plutil -convert xml1 -o -
+[diff "to-utf8"]
+    textconv = iconv -f utf-16 -t utf-8
 
 #driver for merging Xcode project files
 [merge "mergepbx"]
