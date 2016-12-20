@@ -1,26 +1,26 @@
 [user]
-	name = Ayush Goel
-	email = ayushgoel111@gmail.com
+    name = Ayush Goel
+    email = ayushgoel111@gmail.com
 [color]
-	branch = auto
-	diff = auto
-	status = auto
-	ui = always
+    branch = auto
+    diff = auto
+    status = auto
+    ui = always
 [merge]
-	tool = opendiff
+    tool = opendiff
 [pager]
-	status = true
+    status = true
 [core]
-	excludesfile = ~/.gitignore_global
+    excludesfile = ~/.gitignore_global
 [credential]
-	helper = osxkeychain
+    helper = osxkeychain
 [push]
-	default = simple
+    default = simple
 [diff "xcdatamodel"]
-	xfuncname = ^Entity.*$
-	textconv = XCDataModelPrinter
+    xfuncname = ^Entity.*$
+    textconv = XCDataModelPrinter
 [diff "plist"]
-	textconv = plutil -convert xml1 -o -
+    textconv = plutil -convert xml1 -o -
 [diff "to-utf8"]
     textconv = iconv -f utf-16 -t utf-8
 
@@ -29,4 +29,4 @@
         name = Xcode project files merger
         driver = mergepbx %O %A %B
 [rerere]
-	enabled = true
+    enabled = true
