@@ -19,3 +19,5 @@ alias youtube-dl-mp3='youtube-dl --extract-audio --audio-format mp3 --embed-thum
 alias gem-uninstall-all='gem list --no-version | xargs gem uninstall -aIx'
 
 alias xcode-clean-derived-data='rm -rf ~/Library/Developer/Xcode/DerivedData/*'
+
+alias ssh-flock-ios-apps-box='ssh -v ayush.g@flockios201.apps.use1a.i.riva.co'
