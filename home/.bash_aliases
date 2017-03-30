@@ -21,3 +21,6 @@ alias gem-uninstall-all='gem list --no-version | xargs gem uninstall -aIx'
 alias xcode-clean-derived-data='rm -rf ~/Library/Developer/Xcode/DerivedData/*'
 
 alias ssh-flock-ios-apps-box='ssh -v ayush.g@flockios201.apps.use1a.i.riva.co'
+alias ssh-earth201='ssh -v ayush.g@earth201.apps.use1b.i.riva.co'
+alias ssh-earth202='ssh -v ayush.g@earth202.apps.use1d.i.riva.co'
+alias ssh-earth203='ssh -v ayush.g@earth203.apps.use1a.i.riva.co'
