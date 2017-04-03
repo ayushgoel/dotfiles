@@ -14,6 +14,7 @@ aws-sdk
 aws-sdk-core
 aws-sdk-resources
 aws-sdk-v1
+aws-sigv4
 babosa
 bigdecimal
 blankslate
@@ -29,6 +30,7 @@ celluloid-pool
 celluloid-supervision
 cert
 certified
+CFPropertyList
 claide
 classifier-reborn
 cliver
@@ -46,12 +48,14 @@ coffee-script
 coffee-script-source
 colorator
 colored
+colored2
 commander
 concurrent-ruby
 connection_pool
 credentials_manager
 cupertino
 declarative
+declarative-option
 deliver
 diff-lcs
 domain_name
@@ -109,6 +113,19 @@ jekyll-seo-tag
 jekyll-sitemap
 jekyll-swiss
 jekyll-textile-converter
+jekyll-theme-architect
+jekyll-theme-cayman
+jekyll-theme-dinky
+jekyll-theme-hacker
+jekyll-theme-leap-day
+jekyll-theme-merlot
+jekyll-theme-midnight
+jekyll-theme-minimal
+jekyll-theme-modernist
+jekyll-theme-primer
+jekyll-theme-slate
+jekyll-theme-tactile
+jekyll-theme-time-machine
 jekyll-watch
 jemoji
 jmespath
@@ -145,6 +162,7 @@ multi_xml
 multipart-post
 mustache
 mysql2
+nanaimo
 nap
 nenv
 net-dns
@@ -202,6 +220,7 @@ retriable
 rhc
 rouge
 rspec-logsplit
+ruby-macho
 ruby_dep
 rubygems-bundler
 rubyzip
