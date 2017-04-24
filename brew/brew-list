@@ -47,6 +47,7 @@ racket
 readline
 redis
 ruby-completion
+smlnj
 sourcekitten
 sqlite
 terminal-notifier
