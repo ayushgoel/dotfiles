@@ -18,4 +18,10 @@ brewCaskListPath = "brew" + File::SEPARATOR + "brew-cask-list"
 installFrom(brewCaskListPath) {|i| sh "brew cask install #{i}"}
 
 gemListPath = "gems" + File::SEPARATOR + "gem-list"
-installFrom(gemListPath) {|i| sh "gem install #{i}"}
+installFrom(gemListPath) { |i|
+  if `gem list --local | grep #{i}`.empty?
+    sh "gem install #{i}"
+  else
+    puts "Gem #{i} already installed, skipping"
+  end
+}
