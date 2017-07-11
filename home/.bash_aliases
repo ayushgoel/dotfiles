@@ -20,4 +20,8 @@ alias gem-uninstall-all='gem list --no-version | xargs gem uninstall -aIx'
 
 alias xcode-clean-derived-data='rm -rf ~/Library/Developer/Xcode/DerivedData/*'
 
+aria2c-download-in-background() {
+  aria2c $1 >/dev/null 2>&1 &
+}
+
 source $HOME/.bash_aliases_private
