@@ -5,7 +5,6 @@
     branch = auto
     diff = auto
     status = auto
-    ui = always
 [merge]
     tool = opendiff
 [pager]
