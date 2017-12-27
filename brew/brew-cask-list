@@ -4,6 +4,7 @@ appcode
 atom
 calibre
 dash
+db-browser-for-sqlite
 dupeguru
 emacs
 firefox
@@ -11,7 +12,7 @@ flux
 gimp
 google-chrome
 google-drive
-google-photos-backup
+hopper-disassembler
 hubic
 intellij-idea-ce
 iterm2
@@ -20,12 +21,18 @@ macdown
 musicbrainz-picard
 ngrok
 opera
+postman
+pusher
 reveal
+selfcontrol
 simpholders
 skype
-sqlitebrowser
+sourcetree
 sublime-text
 transmission
 vlc
+webtorrent
 whatsapp
+wireshark
+writefull
 zoomus
