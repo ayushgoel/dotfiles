@@ -1,6 +1,7 @@
 alias gs='git status'
 alias gd='git diff'
 alias gca='git checkout -- .'
+alias gm='git commit -m '
 
 alias pi='pod install --no-repo-update'
 
