@@ -60,6 +60,7 @@ coffee-script-source
 colorator
 colored
 colored2
+colorize
 commander
 commander-fastlane
 commonmarker
@@ -338,6 +339,7 @@ sqlite3
 stm_api
 subexec
 supply
+synx
 term-ansicolor
 terminal-notifier
 terminal-table
