@@ -10,7 +10,7 @@
 [pager]
     status = true
 [core]
-    excludesfile = ~/.gitignore_global
+	excludesfile = /Users/ayushgoel/.gitignore_global
 [credential]
     helper = osxkeychain
 [push]
