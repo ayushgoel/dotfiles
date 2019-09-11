@@ -1,5 +1,6 @@
 aom
 aria2
+atlassian-plugin-sdk
 autoconf
 autoconf-archive
 automake
@@ -73,7 +74,7 @@ maven
 mit-scheme
 mogenerator
 mpfr@2
-mysql
+mysql@5.7
 nettle
 node
 opencore-amr
