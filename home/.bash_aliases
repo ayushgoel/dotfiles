@@ -2,6 +2,7 @@ alias gs='git status'
 alias gd='git diff'
 alias gca='git checkout -- .'
 alias gm='git commit -m '
+alias grb='git for-each-ref --sort=-committerdate refs/heads/'
 
 alias pi='pod install --no-repo-update'
 
