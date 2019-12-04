@@ -10,7 +10,7 @@
 [pager]
     status = true
 [core]
-	excludesfile = /Users/ayushgoel/.gitignore_global
+	excludesfile = /Users/admin/.gitignore_global
 [credential]
     helper = osxkeychain
 [push]
@@ -29,3 +29,5 @@
         driver = mergepbx %O %A %B
 [rerere]
     enabled = true
+[gitreview]
+	remote = origin
