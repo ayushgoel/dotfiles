@@ -1,9 +1,17 @@
+[[ -s "$HOME/.bash_profile_private" ]] && source "$HOME/.bash_profile_private"
+[[ -s "$HOME/.profile" ]] && source "$HOME/.profile" # Load the default .profile
+[[ -s "$HOME/.bash_aliases" ]] && source "$HOME/.bash_aliases"
+
+# For hgd completion
+[[ -s "/etc/bash_completion.d/hgd" ]] && source "/etc/bash_completion.d/hgd"
+
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
   . $(brew --prefix)/etc/bash_completion
 fi
 
-export PS1='\[\e[00;36m\]\u@\h> \[\e[0m\]\[\e[00;33m\]\w\[\e[0m\]\[\e[00;31m\]$(__git_ps1 " (%s)")\n\[\e[0m\]\[\e[00;32m\]\\$ \[\e[0m\]'
-export GIT_PS1_SHOWDIRTYSTATE=1
+# export PS1='\[\e[00;36m\]\u@\h> \[\e[0m\]\[\e[00;33m\]\w\[\e[0m\]\[\e[00;31m\]$(__git_ps1 " (%s)")\n\[\e[0m\]\[\e[00;32m\]\\$ \[\e[0m\]'
+# export GIT_PS1_SHOWDIRTYSTATE=1
+# PS1 created by priate profile
 
 export PYTHONSTARTUP=$HOME/.pythonrc
 
@@ -17,10 +25,6 @@ PROMPT_COMMAND="$PROMPT_COMMAND history -a;"
 
 # Auto expand ! combinations on space
 bind space:magic-space
-
-source $HOME/.bash_aliases
-
-[[ -s "$HOME/.profile" ]] && source "$HOME/.profile" # Load the default .profile
 
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
