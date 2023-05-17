@@ -29,7 +29,7 @@ bind space:magic-space
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
-export PATH="/usr/local/sbin:$PATH"
+export PATH="$HOME/bin:/usr/local/sbin:$PATH"
 
 # Google cloud installed via homebrew
 export CLOUDSDK_PYTHON="/usr/local/opt/python@3.8/libexec/bin/python"
@@ -37,3 +37,4 @@ source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.bash.i
 source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.bash.inc"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+test -e ~/.iterm2_shell_integration.bash && source ~/.iterm2_shell_integration.bash || true

@@ -27,3 +27,9 @@ alias xcode-clean-derived-data='rm -rf ~/Library/Developer/Xcode/DerivedData/*'
 aria2c-download-in-background() {
   aria2c $1 >/dev/null 2>&1 &
 }
+
+fix-my-brew() {
+  sudo chown -R $(whoami) /usr/local/bin /usr/local/etc /usr/local/sbin /usr/local/share /usr/local/share/doc
+  chmod u+w /usr/local/bin /usr/local/etc /usr/local/sbin /usr/local/share /usr/local/share/doc
+}
+
