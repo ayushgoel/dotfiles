@@ -38,3 +38,7 @@ source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 test -e ~/.iterm2_shell_integration.bash && source ~/.iterm2_shell_integration.bash || true
+
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
