@@ -11,6 +11,6 @@ def saveList(list, filePath)
     end
 end
 
-saveList(`brew list`, "brew" + File::SEPARATOR + "brew-list")
+saveList(`brew list --formula`, "brew" + File::SEPARATOR + "brew-list")
 saveList(`brew list --cask`, "brew" + File::SEPARATOR + "brew-cask-list")
 saveList(`gem list --no-version`, "gems" + File::SEPARATOR + "gem-list")
