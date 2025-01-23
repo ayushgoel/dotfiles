@@ -1,4 +1,4 @@
-source $HOME/.bash_aliases_private
+[[ -s "$HOME/.aliases_private" ]] && source "$HOME/.aliases_private"
 
 alias gs='git status'
 alias gd='git diff'
@@ -32,4 +32,3 @@ fix-my-brew() {
   sudo chown -R $(whoami) /usr/local/bin /usr/local/etc /usr/local/sbin /usr/local/share /usr/local/share/doc
   chmod u+w /usr/local/bin /usr/local/etc /usr/local/sbin /usr/local/share /usr/local/share/doc
 }
-

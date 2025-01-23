@@ -9,25 +9,7 @@
     tool = opendiff
 [pager]
     status = true
-[core]
-	excludesfile = /Users/admin/.gitignore_global
 [credential]
     helper = osxkeychain
-[push]
-    default = simple
-[diff "xcdatamodel"]
-    xfuncname = ^Entity.*$
-    textconv = XCDataModelPrinter
-[diff "plist"]
-    textconv = plutil -convert xml1 -o -
 [diff "to-utf8"]
     textconv = iconv -f utf-16 -t utf-8
-
-#driver for merging Xcode project files
-[merge "mergepbx"]
-        name = Xcode project files merger
-        driver = mergepbx %O %A %B
-[rerere]
-    enabled = true
-[gitreview]
-	remote = origin
