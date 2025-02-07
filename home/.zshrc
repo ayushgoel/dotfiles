@@ -116,3 +116,16 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+############ Atlassian setup. Remove later. 
+export PATH="/opt/atlassian/bin:$PATH"
+
+export MISE_NODE_VERIFY=false
+export MISE_PIN=true
+
+if [ -d ~/atlassian/atlassian-scripts ]; then
+    export ATLASSIAN_SCRIPTS=~/atlassian/atlassian-scripts
+    source $ATLASSIAN_SCRIPTS/sourceme.sh
+fi
+
+############
