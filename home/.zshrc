@@ -80,7 +80,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git vscode)
+plugins=(git vscode brew docker fzf colored-man-pages mise npm pip keychain gpg-agent)
 
 source $ZSH/oh-my-zsh.sh
 
