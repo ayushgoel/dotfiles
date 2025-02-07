@@ -95,7 +95,7 @@ plugins=(
   common-aliases
   gradle
   macos
-  you-should-use
+  you-should-use # custom plugin https://github.com/MichaelAquilina/zsh-you-should-use
 )
 
 source $ZSH/oh-my-zsh.sh
