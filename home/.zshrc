@@ -87,7 +87,7 @@ plugins=(
   docker
   fzf
   colored-man-pages
-  mise
+  # mise # uninstalled
   npm
   pip
   keychain
@@ -136,8 +136,9 @@ source $ZSH/oh-my-zsh.sh
 ############ Atlassian setup. Remove later. 
 export PATH="/opt/atlassian/bin:$PATH"
 
-export MISE_NODE_VERIFY=false
-export MISE_PIN=true
+# Uninstalled
+# export MISE_NODE_VERIFY=false
+# export MISE_PIN=true
 
 if [ -d ~/atlassian/atlassian-scripts ]; then
     export ATLASSIAN_SCRIPTS=~/atlassian/atlassian-scripts
@@ -145,3 +146,6 @@ if [ -d ~/atlassian/atlassian-scripts ]; then
 fi
 
 ############
+
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
