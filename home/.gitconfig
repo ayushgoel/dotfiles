@@ -1,15 +1,29 @@
 [user]
-    name = Ayush Goel
-    email = ayushgoel111@gmail.com
+	name = Ayush
+	email = ayushgoel111@gmail.com
 [color]
-    branch = auto
-    diff = auto
-    status = auto
+	branch = auto
+	diff = auto
+	status = auto
 [merge]
-    tool = opendiff
+	tool = opendiff
 [pager]
-    status = true
+	status = true
 [credential]
-    helper = osxkeychain
+	helper = osxkeychain
 [diff "to-utf8"]
-    textconv = iconv -f utf-16 -t utf-8
+	textconv = iconv -f utf-16 -t utf-8
+[trace2]
+	eventTarget = af_unix:/Users/agoel7/.gittrace/trace.sock
+	eventBrief = true
+	eventNesting = 1
+	configparams = custom.metacommands
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[core]
+	excludesfile = /Users/agoel7/code/dotfiles/home/.gitignore_global
+[init]
+	defaultBranch = main
