@@ -149,3 +149,11 @@ fi
 
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
+
+############
+
+export PATH="$HOME/.rbenv/shims:$PATH"
+eval "$(rbenv init - zsh)"
+
+# Added by Teamwork Graph CLI installer
+export PATH="/Users/agoel7/.local/bin:$PATH"

@@ -27,3 +27,6 @@
 	excludesfile = /Users/agoel7/code/dotfiles/home/.gitignore_global
 [init]
 	defaultBranch = main
+
+[includeIf "gitdir:~/atlassian/"]
+    path = ~/atlassian/.gitconfig
