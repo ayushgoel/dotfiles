@@ -5,7 +5,7 @@ import argparse
 def generate_rows_S(lower, upper):
   assert (lower <= upper), "Lower limit can not be larger than upper"
   for i in range(lower, upper):
-    print("=VLOOKUP(C{0},MFPortfolio!G63:MFPortfolio!H85,2,FALSE)".format(i))
+    print("=VLOOKUP(C{0},MFPortfolio!G68:MFPortfolio!I91,3,FALSE)".format(i))
 
 def generate_rows_U(lower, upper):
   assert (lower <= upper), "Lower limit can not be larger than upper"
