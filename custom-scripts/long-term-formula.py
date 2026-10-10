@@ -5,12 +5,14 @@ import argparse
 def generate_rows_S(lower, upper):
   assert (lower <= upper), "Lower limit can not be larger than upper"
   for i in range(lower, upper):
-    print("=VLOOKUP(C{0},MFPortfolio!G68:MFPortfolio!I91,3,FALSE)".format(i))
+    # =VLOOKUP(C5,MFPortfolio!G68:MFPortfolio!H91,2,FALSE)
+    print("=VLOOKUP(C{0},MFPortfolio!G68:MFPortfolio!H91,2,FALSE)".format(i))
 
 def generate_rows_U(lower, upper):
   assert (lower <= upper), "Lower limit can not be larger than upper"
   for i in range(lower, upper):
-    print("=VLOOKUP(C{0},MFPortfolio!G63:MFPortfolio!I85,3,FALSE)".format(i))
+    # =VLOOKUP(C125,MFPortfolio!G68:MFPortfolio!I91,3,FALSE)
+    print("=VLOOKUP(C{0},MFPortfolio!G68:MFPortfolio!I91,3,FALSE)".format(i))
 
 def main():
   parser = argparse.ArgumentParser(description='Process some integers.')
